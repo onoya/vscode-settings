@@ -1,0 +1,27 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": false,
+
+    "files.trimTrailingWhitespace": true,
+
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Solarized Light",
+
+    "window.newWindowDimensions": "maximized",
+
+    "html.format.endWithNewline": true,
+
+    "editor.lineHeight": 27,
+
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+
+    "terminal.integrated.copyOnSelection": false,
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "terminal.integrated.lineHeight": 1.3,
+}
