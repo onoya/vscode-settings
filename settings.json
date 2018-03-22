@@ -1,27 +1,38 @@
 {
-    "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.lineHeight": 30,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "phase",
+  "editor.dragAndDrop": false,
+  "editor.letterSpacing": 0.3,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
 
-    "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
 
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5",
+  "window.newWindowDimensions": "maximized",
+  "window.restoreWindows": "folders",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
 
-    "workbench.startupEditor": "none",
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Solarized Light",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorCustomizations": {
+    // "editorWhitespace.foreground": "#dcdde1",
+  },
 
-    "window.newWindowDimensions": "maximized",
+  "terminal.integrated.copyOnSelection": false,
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "terminal.integrated.lineHeight": 1.3,
+  "terminal.integrated.cursorBlinking": true,
 
-    "html.format.endWithNewline": true,
+  "[javascript]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+  },
 
-    "editor.lineHeight": 27,
-
-    "[javascript]": {
-        "editor.tabSize": 2,
-    },
-
-    "terminal.integrated.copyOnSelection": false,
-    "terminal.integrated.shell.osx": "/bin/bash",
-    "terminal.integrated.lineHeight": 1.3,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
 }
