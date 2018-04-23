@@ -4,6 +4,12 @@ My Visual Studio Code Settings.
 
 ## How to sync settings (Mac)
 
+Remove current VSCode `User` directory:
+
+```bash
+rm -rf ~/Library/Application\ Support/Code/User
+```
+
 Clone the repository and run the command below:
 
 ```bash
