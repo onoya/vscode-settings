@@ -16,19 +16,39 @@ Clone the repository and run the command below:
 ln -s "$(pwd)/vscode-settings" ~/Library/Application\ Support/Code/User
 ```
 
-## Extensions
+## Recommended Extensions
 
-- dsznajder.es7-react-js-snippets
-- bmewburn.vscode-intelephense-client
-- eamodio.gitlens
-- esbenp.prettier-vscode
-- Equinusocio.vsc-material-theme
-- christian-kohler.path-intellisense
-- leizongmin.node-module-intellisense
-- ikappas.phpcs
-- dbaeumer.vscode-eslint
-- CoenraadS.bracket-pair-colorizer
-- DavidAnson.vscode-markdownlint
-- PeterJausovec.vscode-docker
-- formulahendry.code-runner
-- ritwickdey.LiveServer
+- ES7 React/Redux/GraphQL/React-Native snippets
+- PHP Intelephense
+- GitLens — Git supercharged
+- Prettier - Code formatter
+- Path Intellisense
+- Node.js Modules Intellisense
+- phpcs
+- ESLint
+- Bracket Pair Colorizer
+- markdownlint
+- Docker
+- Code Runner
+- Live Server
+
+Run the commands below to install all my recommended extensions:
+
+*Note: Make sure that you have [installed **code** command in PATH](https://code.visualstudio.com/docs/setup/mac) before running the command below.*
+
+```sh
+code \
+--install-extension dsznajder.es7-react-js-snippets \
+--install-extension bmewburn.vscode-intelephense-client \
+--install-extension eamodio.gitlens \
+--install-extension esbenp.prettier-vscode \
+--install-extension christian-kohler.path-intellisense \
+--install-extension leizongmin.node-module-intellisense \
+--install-extension ikappas.phpcs \
+--install-extension dbaeumer.vscode-eslint \
+--install-extension CoenraadS.bracket-pair-colorizer \
+--install-extension DavidAnson.vscode-markdownlint \
+--install-extension PeterJausovec.vscode-docker \
+--install-extension formulahendry.code-runner \
+--install-extension ritwickdey.LiveServer
+```
