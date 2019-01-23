@@ -23,6 +23,7 @@
   "window.newWindowDimensions": "maximized",
   "window.restoreWindows": "folders",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "window.zoomLevel": 0,
 
   "workbench.startupEditor": "none",
   "workbench.activityBar.visible": false,
@@ -40,6 +41,10 @@
   "php.executablePath": "/usr/bin/php",
 
   "[javascript]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
@@ -69,5 +74,7 @@
     "{}",
     ["Gray", "#00b894", "Navy"],
     "Red"
-  ]
+  ],
+
+  "typescript.extension.sortImports.enableJavascript": true,
 }
