@@ -31,6 +31,7 @@ ln -s "$(pwd)/vscode-settings" ~/Library/Application\ Support/Code/User
 - Docker
 - Code Runner
 - Live Server
+- TSLint
 
 Run the commands below to install all my recommended extensions:
 
@@ -50,5 +51,6 @@ code \
 --install-extension DavidAnson.vscode-markdownlint \
 --install-extension PeterJausovec.vscode-docker \
 --install-extension formulahendry.code-runner \
---install-extension ritwickdey.LiveServer
+--install-extension ritwickdey.LiveServer \
+--install-extension ms-vscode.vscode-typescript-tslint-plugin
 ```
