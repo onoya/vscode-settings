@@ -43,7 +43,6 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
 
   "php.suggest.basic": false,
-  "php.executablePath": "/usr/bin/php",
 
   "[javascript]": {
     "editor.insertSpaces": true,
@@ -68,6 +67,18 @@
   "[erb]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[php]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
   },
 
   // -------------------
