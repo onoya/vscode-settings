@@ -40,7 +40,10 @@
   "terminal.integrated.lineHeight": 1.3,
   "terminal.integrated.cursorBlinking": true,
 
+  "javascript.preferences.quoteStyle": "single",
+
   "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.quoteStyle": "single",
 
   "php.suggest.basic": false,
 
