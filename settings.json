@@ -19,6 +19,13 @@
     "typescript": "tsx"
   },
 
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -55,6 +62,10 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
+  "[jsonc]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
   "[typescript]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
@@ -87,6 +98,7 @@
   // -------------------
   // Extension Settings
   // -------------------
+  "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
 
