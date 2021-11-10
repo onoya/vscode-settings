@@ -37,7 +37,7 @@
 
   "workbench.startupEditor": "none",
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Solarized Dark",
   "workbench.colorCustomizations": {
     // "editorWhitespace.foreground": "#dcdde1",
   },
@@ -93,6 +93,9 @@
   "[php]": {
     "editor.insertSpaces": false,
     "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
   },
 
   // -------------------
